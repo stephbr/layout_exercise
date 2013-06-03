@@ -2,17 +2,63 @@
    border: 1px solid red;
 }
 
+a:hover{
+	color:white;
+	background-color:red;
+}
+
+
+
+/* Why am I using this? */
 body {
 	height: 100%;
 }
 
 .site-structure {
-	min-height: 100%;
-	position: relative;
+	min-height:100%;
+	position: absolute;
 	margin: 0px auto;
+	background-color:#EBEBEB;
+	left:10%;
+	right: 10%;
 }
 
+
+
+.navigation {
+	padding: 10px;
+	margin: 10px;
+
+}
+
+
+/* why are these buttons and logo hanging outside the navi div */
+.navi-buttons {
+	position:relative;
+	float:right;
+	width: 20%;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+#logo {
+	position:relative;
+	float:left;
+	width:10%;
+	padding: 2%;
+	margin: 2%;
+}
+
+
+/* Not sure what to put here */
+.body-container {
+}
+
+
+/* I want a picture to fill in this space */
 .banner {
+	height: 160px;
 	padding: 10px;
 	margin: 10px;
 }
@@ -21,16 +67,20 @@ body {
 .call-out {
 	position:relative;
 	float:left;
-	width: 30%;
+	width: 25%;
 	padding: 10px;
 	margin: 10px;
 }
 
-.callout-container {
-	position: relative;
-	width: 100%;
+.call-out-wide {
+	position:relative;
+	float:left;
+	padding: 10px;
+	margin: 10px;
 }
 
+
+/* how to bring this guy down */
 .footer {
 	position: relative;
 }

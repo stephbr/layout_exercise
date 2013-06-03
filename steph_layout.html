@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 
     <head>
-        <title><a href="http://www.stephbr.com">Steph B</a></title>
+        <title>Steph's layout exercise</title>
         <link rel="stylesheet" href="css/stephlayout.css">
     </head>
 
 <body>
 
      <div class="site-structure">
-     	 <div class="header" style="color:blue">Header</div>
+     	 <div class="navigation">
+     	 	 <div id="logo">HOME</div>
+       	 	 <div class="navi-buttons">Page 1</div>
+     	 	 <div class="navi-buttons">Page 2</div>
+     	 	 <div class="navi-buttons">Page 3</div>
+     	 </div>
+     	 
 
 	     <div class="body-container">
 
-    	 	 <div class="banner" style="background-color:orange">Banner</div>
-
-    	 	 <div class="callout-container">
-
-    	 		 <div class="call-out" style="color:gray">
-    	 			<h1>Callout 1</h1>
-    	 		 	<p>Paragraph description goes here </p>
-    	 		 </div>
-
-    	 		 <div class="call-out" style="color:gray">
-    	 			<h1>Callout 1</h1>
-    	 			<p>Paragraph description goes here </p>
-    	 		 </div>
-
-    	 		 <div class="call-out" style="color:gray">
-    	 			<h1>Callout 1</h1>
-    	 			<p>Paragraph description goes here </p>
-    	 		 </div>
- 
+    	 	 <div class="banner" style="background-color:orange"></div>
+    	 	 <div class="call-out" style="background-color:#07f5ed">
+    	 			<h1>Absolute Positioning</h1>
+    	 		 	<p>The body on <a href="http://www.google.com/">Google's</a> main page is positioned 'absolute'.</p>
     	 	 </div>
-   		
+    	 	 <div class="call-out" style="background-color:#ffbaea">
+    	 			<h1>Fixed Positioning</h1>
+    	 			<p>The footer on <a href="http://www.tumblr.com/">tumblr.com</a> is fixed, but you can't tell since there isn't much need for scrolling.</p>
+    	 	 </div>
+    	 	 <div class="call-out" style="background-color:#bd96bd">
+    	 			<h1>Clearfix</h1>
+    	 			<p>I can't find an example in the wild, but I know it fixes a problem with floating objects, and you should apply it to the parent of the floating children.</p>
+    	 	 </div>
+
+    	 	 <div class="call-out-wide" style="background-color:gray">
+    	 			<p>Not sure how to position this so it is below all three call-out boxes.</p>
+    	 	 </div>
+
    		 </div>
    		 <div class="footer" style="color:blue">Footer</div>
 
