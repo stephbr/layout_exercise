@@ -1,0 +1,36 @@
+* {
+   border: 1px solid red;
+}
+
+body {
+	height: 100%;
+}
+
+.site-structure {
+	min-height: 100%;
+	position: relative;
+	margin: 0px auto;
+}
+
+.banner {
+	padding: 10px;
+	margin: 10px;
+}
+
+
+.call-out {
+	position:relative;
+	float:left;
+	width: 30%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.callout-container {
+	position: relative;
+	width: 100%;
+}
+
+.footer {
+	position: relative;
+}
